@@ -44,7 +44,7 @@ def guess_proximity(difficulty_function, chosen_from_list):
         attempts = difficulty_function
         for i in range(attempts):
             try:
-                guess = int(input("Guess the number from 1 to 100: "))
+                guess = int(input("Guess the number from 0 to 100: "))
                 if attempts > 0:
                     if guess > value:
                         print("The number is too high.")
